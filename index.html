@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marckdown-warmup-challenge</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Austin Benard</h1>
@@ -18,7 +19,7 @@
         </tr>
         <tr>
             <td>Favorite color: </td>
-            <td>Green</td>
+            <td class="favorite-color">Green</td>
         </tr>
         <tr>
             <td>Favorite food: </td>
@@ -26,9 +27,11 @@
         </tr>
         <tr>
             <td>Pieapple pizza? </td>
-            <td> <input type="checkbox" id="Yes" name="Yes" checked> <input type="checkbox" id="No" name="NO"></td>
+            <td>
+                <label for="Yes"><input type="checkbox" id="Yes" name="Yes" checked>Yes</label>
         </tr>
     </table>
+    <div class="main-class">
     <h3>Hobbies</h3>
     <ul>
         <li>Movies and series watching</li>
@@ -53,10 +56,13 @@
     </p>
     <h5>TL;DR</h5>
     <p>I tried to cook and almost set the kitchen on fire</p>
-    <div ><a href="#" style="display: inline;">&lt;&lt;Previous</a>
-        <p style="display: inline;">Austin</p>
-        <a href="#" style="display: inline;">&gt;&gt;Next
+    <br>
+</div> 
+    <div class="next-page"><a href="#" style="display: inline;">&lt;&lt;Previous</a>
+        <p style="display: inline; text-decoration: underline;">Austin</p>
+        <a href="https://bastlaf.github.io/markdown-warmup-html/" style="display: inline;">Next&gt;&gt;
         </a>
     </div>
+
 </body>
 </html>
